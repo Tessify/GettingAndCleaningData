@@ -1,12 +1,12 @@
 ## Install and load packages 
-#install.packages("dplyr")
+install.packages("dplyr")
 require(dplyr)
-#install.packages("data.table")
+install.packages("data.table")
 require("data.table")
 
 
 ## Load input
-# Load column names
+# Load column names in variable called features
 features <- fread("features.txt", 
     header = FALSE)
 features <- paste(c(1:561), features$V2)
