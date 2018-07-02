@@ -4,7 +4,6 @@ require(dplyr)
 #install.packages("data.table")
 require("data.table")
 
-setwd("P:/Documents/Coursera/getting-cleaning data/UCI HAR Dataset/")
 
 ## Load input
 # Load column names
