@@ -9,8 +9,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 # The script
 Before you run the script, make sure that your working directory ends with: "/UCI HAR Dataset". 
+
 The script performs the following steps:
+
 A. Install and load packages 
+
 B. Load input
 - Load column names in variable named features
 - Load X_test.txt in variable testX with column names found in features
@@ -20,6 +23,7 @@ B. Load input
 - Load y_train.txt in variable trainy
 - Load subject_train.txt in variable trainSubject
 - Load activity names
+
 C. Perform steps in assignment
 Step 1: Merges the training and the test sets to create one data set called dataset.
 Step 2: Extracts only the measurements on the mean and standard deviation for each measurement.
