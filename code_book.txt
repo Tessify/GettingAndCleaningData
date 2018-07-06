@@ -1,0 +1,30 @@
+## Code book
+
+# Study design
+Link to source data: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Please look up the readme file and features_info file from the link mentioned above for information on the source variables/features.
+
+# Variables:
+The input for the script are the following variables:
+- activity label
+- identifier of the subject who carried out the experiment.
+The script uses the mean and standard deviation of the following variables:
+- tBodyAcc-XYZ: time body acceleration in X, Y and Z directions
+- tGravityAcc-XYZ: time gravity acceleration in X, Y and Z directions
+- tBodyAccJerk-XYZ: time body acceleration jerk signal in X, Y and Z directions
+- tBodyGyro-XYZ: time body gyroscope in X, Y and Z directions
+- tBodyGyroJerk-XYZ: time body fyroscope jerk signal in X, Y and Z directions
+- tBodyAccMag: time body acceleration magnitude of the three-dimensional directions
+- tGravityAccMag: time gravity acceleration magnitude of the three-dimensional directions
+- tBodyAccJerkMag: time body acceleration jerk signal magnitude of the three-dimensional directions
+- tBodyGyroMag: time body gyroscope magnitude of the three-dimensional directions
+- tBodyGyroJerkMag: time body gyroscope jerk signal magnitude of the three-dimensional directions
+- fBodyAcc-XYZ: Fast Fourier Transform body acceleration in X, Y and Z directions
+- fBodyAccJerk-XYZ: Fast Fourier Transform body acceleration jerk signal in X, Y and Z directions
+- fBodyGyro-XYZ: Fast Fourier Transform body gyrsoscope in X, Y and Z directions
+- fBodyAccMag: Fast Fourier Transform body acceleration magnitude of the three-dimensional directions
+- fBodyAccJerkMag: Fast Fourier Transform body acceleration jerk signal magnitude of the three-dimensional directions
+- fBodyGyroMag: Fast Fourier Transform body gyroscope magnitude of the three-dimensional directions
+- fBodyGyroJerkMag: Fast Fourier Transform body gyroscope jerk signal magnitude of the three-dimensional directions
